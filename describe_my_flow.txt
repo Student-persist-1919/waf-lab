@@ -1,7 +1,8 @@
-Kịch bản 1: Không có WAF (tấn công thành công) http://localhost:3000   Email: ' OR 1=1--, mật khẩu: nhập bất kỳ. -> vào được tkhoan admin
+Kịch bản 1 – Không có WAF (tấn công thành công)
+Truy cập http://localhost:3000, đăng nhập với email ' OR 1=1-- và mật khẩu bất kỳ. Kết quả: vào được tài khoản admin.
 
-Kịch bản 2: Có WAF (bị chặn) http://localhost:8080 Làm y hệt kịch bản 1 nhưng bị chặn
+Kịch bản 2 – Có WAF (bị chặn)
+Truy cập http://localhost:8080, đăng nhập với cùng chuỗi trên. Kết quả: bị chặn.
 
-Kịch bản 3: Đăng nhập đúng qua WAF http://localhost:8080   Thành công với admin@juice-sh.op / admin123
-
-
+Kịch bản 3 – Đăng nhập đúng qua WAF
+Truy cập http://localhost:8080, đăng nhập với admin@juice-sh.op / admin123. Kết quả: đăng nhập thành công.
