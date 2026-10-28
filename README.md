@@ -1,5 +1,6 @@
-# Welcome to GitHub Desktop!
+# Welcome
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+My lab  
+describe_my_flow.txt has all
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+
